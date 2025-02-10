@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/SharaXOp/Musicbot",
+    "https://github.com/Badnam019/Musicbot",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/SharaXAssociation")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/DangerX_zone")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ABOUT_BADNAM_YADAV_XD")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/ABOUT_BADNAM_YADAV_XD")
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
@@ -83,7 +83,7 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/31fbeb409fd0d71af142a.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/lcdpra.jpg"
 )
 PING_IMG_URL = getenv(
     "PING_IMG_URL", "https://telegra.ph/file/31fbeb409fd0d71af142a.jpg"
